@@ -1,80 +1,80 @@
-# python-whatsapp-bot
-This is a Whatsapp Chatbot that responds with quotes or images of cats when either of them is requested.
+## My Project
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Create%20a%20whatsapp%20chatbot%20with%20python%20and%20Twilio.&url=https://github.com/Ileriayo/python-whatsapp-bot&via=ileriayodavid&hashtags=chatbot,ai,python,twilio,developers)
+## python-whatsapp-bot
 
-# Usage
-1. Download and install [Python](https://www.python.org/). Version 3 and above should come with `pip`.
+This is a simple WhatsApp bot built using Python and the Flask framework. It uses Twilio's WhatsApp API to handle messaging, and ngrok is used to expose the local Flask server for testing purposes.
 
-2. Clone or fork this repository (project).
-    ```
-    $ git clone https://github.com/Ileriayo/python-whatsapp-bot.git
+## Features
 
-    $ cd python-whatsapp-bot
-    ```
+- Receives and responds to WhatsApp messages.
+- Uses Twilio to manage WhatsApp communication.
+- Flask for creating a lightweight backend server.
+- ngrok for exposing the local development server to the web.
 
-2. Create a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) inside this project directoy e.g.,
-    ```
-    python -m venv whatsapp-bot-venv
-    ```
-    Then activate that environment:
-    ```
-    Windows: whatsapp-bot-venv\Scripts\activate
+## Technologies Used
 
-    Mac: $ source whatsapp-bot-venv/bin/activate
-    ```
+- **Python**: For backend scripting.
+- **Flask**: A lightweight web framework for handling routes and HTTP requests.
+- **Twilio**: For managing WhatsApp messaging via API.
+- **ngrok**: To expose the local Flask server to the web for testing.
 
-4. Install the following dependencies: `twilio, flask, requests`.
-    ```
-    $ pip install twilio flask requests
-    ```
+## 🌐 Socials:
 
-5. Run the Flask application  
-    Start by setting (exporting) the FLASK_APP environment variable
-    ```
-    Windows: set FLASK_APP=bot.py
-    Mac: $ export FLASK_APP=bot.py
-    ```
-    Run this command afterwards:
-    ```
-    python -m flask run
-    ```
+[![Upwork](https://img.shields.io/badge/upwork-%2230175C2.svg?logo=Upwork&logoColor=green)](https://www.upwork.com/freelancers/~01b8262a0ffa2f4860)
+[![fiverr](https://img.shields.io/badge/fiverr-%230769AD.svg?logo=fiverr&logoColor=green)](https://www.fiverr.com/gold_medalist?source=gig_page)
 
-6. Test the chatbot. 
+## 💻 Tech Stack:
 
-    a. Download [ngrok](https://ngrok.com/download). From your CLI (terminal or CMD), navigate to the ngrok directory and run this command:
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=white)
+![React.js](https://img.shields.io/badge/React.js-%2361DAFB.svg?style=for-the-badge&logo=React&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=Next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=Vue.js&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-%23764ABC.svg?style=for-the-badge&logo=Redux&logoColor=white)
+![Redux Thunk](https://img.shields.io/badge/Redux_Thunk-%23764ABC.svg?style=for-the-badge&logo=Redux&logoColor=white)
+![Redux-Toolkit](https://img.shields.io/badge/Redux_Toolkit-%23764ABC.svg?style=for-the-badge&logo=Redux&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-%23F3B71B.svg?style=for-the-badge&logo=React&logoColor=white)
+![Formik](https://img.shields.io/badge/Formik-%2361DAFB.svg?style=for-the-badge&logo=Formik&logoColor=white)
+![React Hook Form](https://img.shields.io/badge/React_Hook_Form-%2361DAFB.svg?style=for-the-badge&logo=React&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![HTML](https://img.shields.io/badge/XHTML-%23F58025.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS/CSS3](https://img.shields.io/badge/CSS/CSS3-%231572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+![SASS/LESS](https://img.shields.io/badge/SASS/LESS-%23CC6699.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-%230769AD.svg?style=for-the-badge&logo=jQuery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=Bootstrap&logoColor=white)
+![Material-UI](https://img.shields.io/badge/Material_UI-%231976D2.svg?style=for-the-badge&logo=Material-UI&logoColor=white)
+![AntD](https://img.shields.io/badge/AntD-%230170FE.svg?style=for-the-badge&logo=Ant-Design&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
+![Node JS](https://img.shields.io/badge/Node_JS-%23339933.svg?style=for-the-badge&logo=Node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23000000.svg?style=for-the-badge&logo=Express&logoColor=white)
+![Nest.js](https://img.shields.io/badge/Nest.js-%23E0234E.svg?style=for-the-badge&logo=NestJS&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-%E10098.svg?style=for-the-badge&logo=GraphQL)
+![Prisma.js](https://img.shields.io/badge/Prisma.js-%2D2D2E2E.svg?style=for-the-badge&logo=Prisma)
+![MySQL](https://img.shields.io/badge/MySQL-%4479A1.svg?style=for-the-badge&logo=MySQL)
+![MongoDB](https://img.shields.io/badge/MongoDB-%47A248.svg?style=for-the-badge&logo=MongoDB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%336791.svg?style=for-the-badge&logo=PostgreSQL)
 
-        $ ngrok http 5000
-    
-    Copy the URL where you see `Forwarding`. It will look like this `https://066cbc59.ngrok.io`.
-    
+## Getting Started
 
-    b. Create an account on [Twilio](https://www.twilio.com) and navigate to the [Whatsapp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox). Follow the instructions from Twilio to get a test whatsapp account.
-    At the end of the setup, paste the url you copied earlier into the input field with the label `WHEN A MESSAGE COMES IN`. At the end of the URL, add '`/bot`' and hit save.
+### Prerequisites
 
-    See the screenshot below:
+Ensure you have the following installed on your machine:
 
-    ![](screenshots/twilio.PNG)
+- [Python](https://www.python.org/downloads/) (version 3.7 or higher)
+- [Twilio Account](https://www.twilio.com/try-twilio) (for WhatsApp integration)
+- [ngrok](https://ngrok.com/) (for exposing your local server)
 
-    **Bonus:** You can create a customized link for your Whatsapp chatbot. Use this template: `http://wa.me/<phone-number-from-twilio>?text=<code-to-join-sandbox>`.
+### Installation
 
-    Send the link to your friends to try out the chatbot.
+1. Clone the repository:
 
-# Technologies Used
-- Python, Flask framework
-- Twilio
-- ngrok
-
-# Author
-Ileriayo Adebiyi
-
-# Like It?
-- Kindly star this repository🙏🥺. It will go a long way. Thanks!🤝
-- [Click to tweet](https://twitter.com/intent/tweet?text=Create%20a%20whatsapp%20chatbot%20with%20python%20and%20Twilio.&url=https://github.com/Ileriayo/python-whatsapp-bot&via=ileriayodavid&hashtags=chatbot,ai,python,twilio,developers)
-
-# Contact
-Send me an [email](mailto:ileriayoadebiyi@gmail.com?subject=Build%20Me%20a%20Chatbot) to build a bespoke chatbot for unique business needs. Visit [my website](https://ileriayo.netlify.app/)
-
-    
-# License ![GitHub](https://img.shields.io/github/license/ileriayo/python-whatsapp-bot)
-See [license](LICENSE)
+   - git clone https://github.com/yourusername/python-whatsapp-bot.git
+   - cd python-whatsapp-bot
+   - python -m venv venv
+   - source venv/bin/activate
+   - pip install -r requirements.txt
+   - TWILIO_ACCOUNT_SID=your_twilio_account_sid
+   - TWILIO_AUTH_TOKEN=your_twilio_auth_token
+   - TWILIO_PHONE_NUMBER=your_twilio_whatsapp_number
+   - flask run
+   - By default, the Flask server runs on http://127.0.0.1:5000/.
+   - ngrok http 5000
